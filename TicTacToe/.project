@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TicTacToe</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>com.symbian.cdt.core.symbiannature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>TicTacToe_S60_2_1_Phone_(ARMI)_Release.app</name>
+			<type>1</type>
+			<location>C:/Symbian/7.0s/Series60_v21_CW/epoc32/release/ARMI/UREL/TicTacToe.app</location>
+		</link>
+		<link>
+			<name>TicTacToe_S60_2_1_Phone_(Thumb)_Release.app</name>
+			<type>1</type>
+			<location>C:/Symbian/7.0s/Series60_v21_CW/epoc32/release/THUMB/UREL/TicTacToe.app</location>
+		</link>
+		<link>
+			<name>TicTacToe_S60_2_1_Emulator_Debug.app</name>
+			<type>1</type>
+			<location>C:/Symbian/7.0s/Series60_v21_CW/epoc32/release/WINSCW/UDEB/Z/system/apps/TicTacToe/TicTacToe.app</location>
+		</link>
+	</linkedResources>
+</projectDescription>

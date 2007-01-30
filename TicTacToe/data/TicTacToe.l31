@@ -1,0 +1,36 @@
+// TicTacToe.l31
+// Chinese localisation
+CHARACTER_SET UTF8
+
+#define ELanguage ELangPrcChinese
+
+#define qtn_app_caption_string "TicTacToe（S60版）"
+#define qtn_app_short_caption_string "TicTacToe"
+
+#define qtn_tictactoe_exit "退出"
+#define qtn_tictactoe_menu "主菜单"
+#define qtn_tictactoe_settings "设置"
+
+#define qtn_tictactoe_new_game "新游戏"
+#define qtn_tictactoe_stats "玩家数据"
+
+#define qtn_tictactoe_players_name "昵称"
+#define qtn_tictactoe_who_plays_first "谁先开始？"
+#define qtn_tictactoe_sound "音效"
+
+#define qtn_tictactoe_sound_on "开启"
+#define qtn_tictactoe_sound_off "关闭"
+
+#define qtn_tictactoe_com "电脑"
+#define qtn_tictactoe_you "玩家"
+
+#define qtn_tictactoe "TicTacToe"
+
+#define STRING_PLAYER_WIN "你赢了！"
+#define STRING_PLAYER_LOSS "你输了！"
+#define STRING_A_CATS_GAME "平局！"
+
+#define STRING_STATS_1 "\n胜：%d, 负：%d"
+#define STRING_STATS_2 "平局：%i"
+
+// End of File

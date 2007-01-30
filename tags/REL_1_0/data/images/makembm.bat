@@ -1,0 +1,1 @@
+bmconv /h../TicTacToe.mbg ./TicTacToe.mbm cross.bmp not.bmp

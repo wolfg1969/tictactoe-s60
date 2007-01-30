@@ -1,0 +1,10 @@
+// TicTacToe.loc
+// Localisation for TicTacToe
+
+#if defined LANGUAGE_01 | LANGUAGE_SC
+#include "TicTacToe.l01"
+#elif defined LANGUAGE_31
+#include "TicTacToe.l31"
+#endif
+
+// End of File

@@ -1,0 +1,42 @@
+;
+; Installation file for TicTacToe application
+;
+;Languages
+&EN,ZH
+;
+; UID is the app's UID
+;
+#{"TicTacToe","TicTacToe"},(0x200096D6),1,0,2
+;
+;Supports Series 60 v 2.0
+;This line indicates that this installation is for the Series 60 platform v2.0
+;This line must appear _exactly_ as shown below in the sis file
+;If this line is missing or incorrect, the sis file will not be able
+;to be installed on Series 60 v2.0 platforms
+;(0x101F7960), 0, 0, 0, {"Series60ProductID","Series60ProductID"} 
+(0x101F6F88), 0, 0 ,0, {"Series60ProductID","Series60ProductID"} 
+;
+; The PKG file has been set up with a default SDK root.
+; Symbols set up for the source location are Carbide.c++ specific symbols
+
+;
+; Install language dependent data
+;
+{"$(EPOCROOT)Epoc32\data\z\system\apps\TicTacToe\TicTacToe.r01" "$(EPOCROOT)Epoc32\data\z\system\apps\TicTacToe\TicTacToe.r31"}-"!:\system\apps\TicTacToe\TicTacToe.rsc"
+{"$(EPOCROOT)Epoc32\data\z\system\apps\TicTacToe\TicTacToe_caption.r01" "$(EPOCROOT)Epoc32\data\z\system\apps\TicTacToe\TicTacToe_caption.r31"}-"!:\system\apps\TicTacToe\TicTacToe_caption.rsc"
+
+;
+; Files to install
+;
+"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\TicTacToe.app"-"!:\system\apps\TicTacToe\TicTacToe.app"
+"$(EPOCROOT)Epoc32\data\z\system\apps\TicTacToe\TicTacToe.aif"-"!:\system\apps\TicTacToe\TicTacToe.aif"
+"$(EPOCROOT)Epoc32\data\z\system\apps\TicTacToe\tictactoe.mbm"-"!:\system\apps\TicTacToe\tictactoe.mbm"
+"..\data\audio\beep.au"-"!:\system\apps\TicTacToe\beep.au"
+"..\data\audio\ding.au"-"!:\system\apps\TicTacToe\ding.au"
+"..\data\audio\return.au"-"!:\system\apps\TicTacToe\return.au"
+"..\data\audio\yahoo1.au"-"!:\system\apps\TicTacToe\yahoo1.au"
+"..\data\audio\yahoo2.au"-"!:\system\apps\TicTacToe\yahoo2.au"
+
+; Make sure the configuration file is removed on uninstall
+;
+""-"!:\system\apps\TicTacToe\TicTacToe.ini",FN

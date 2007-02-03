@@ -1,0 +1,146 @@
+//  RESOURCE IDENTIFIER
+NAME    TIC_ // 4 letter ID
+
+//  INCLUDES
+#include <eikon.rh>
+#include "TicTacToe.hrh"
+#include "TicTacToe.loc"
+#include <avkon.rsg>
+#include <avkon.rh>
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+//
+//    Define the resource file signature
+//    This resource should be empty.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE { }
+
+RESOURCE TBUF { buf=qtn_tictactoe; }
+
+RESOURCE EIK_APP_INFO
+    {
+    }
+
+RESOURCE AVKON_VIEW r_tictactoe_game_view
+    {
+    menubar = r_tictactoe_menubar1;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+RESOURCE AVKON_VIEW r_tictactoe_settings_view
+    {
+    cba = R_AVKON_SOFTKEYS_OK_CANCEL;
+    }
+
+RESOURCE MENU_BAR r_tictactoe_menubar1
+    {
+    titles=
+        {
+        MENU_TITLE {menu_pane = r_tictactoe_menu1;}
+        };
+    }
+
+RESOURCE MENU_PANE r_tictactoe_menu1
+    {
+    items = 
+        {
+        MENU_ITEM {command = ETicTacToeCmdAppNewGame;  txt = qtn_tictactoe_new_game;},
+        MENU_ITEM {command = ETicTacToeCmdAppSetting;  txt = qtn_tictactoe_settings;},
+        MENU_ITEM {command = ETicTacToeCmdAppStatistics;  txt = qtn_tictactoe_stats;}
+        };
+    }
+
+RESOURCE AVKON_SETTING_ITEM_LIST r_tictactoe_settings_list
+    {
+    //flags= EAknSettingItemNumberedStyle;
+    flags = 0;
+    initial_number = 1;
+    title = qtn_tictactoe_settings;    
+    items =     
+        {
+        AVKON_SETTING_ITEM
+            {
+            identifier = ETicTacToePlayerNameText;
+            setting_page_resource = r_tictactoe_text_setting_page;
+            name = qtn_tictactoe_players_name;
+            },
+        AVKON_SETTING_ITEM
+            {
+            identifier = ETicTacToePlayerFirstBinary;
+            setting_page_resource = r_tictactoe_binary_setting_page;
+            associated_resource = r_tictactoe_popup_setting_playsfirst_binary_texts;
+            name = qtn_tictactoe_who_plays_first;
+            },
+        AVKON_SETTING_ITEM
+            {
+            identifier = ETicTacToeGameSoundEnabledBinary;
+            setting_page_resource = r_tictactoe_binary_setting_page;
+            associated_resource = r_tictactoe_popup_setting_sound_binary_texts;
+            name = qtn_tictactoe_sound;
+            }
+        };
+    }
+
+RESOURCE AVKON_SETTING_PAGE r_tictactoe_text_setting_page
+    {
+    number = EAknSettingPageNoOrdinalDisplayed;
+    label = qtn_tictactoe_players_name;
+    type = EEikCtEdwin;
+    editor_resource_id = r_tictactoe_edwin;
+    }
+
+RESOURCE EDWIN r_tictactoe_edwin
+    {
+    width = 9;
+    lines = 1;
+    maxlength = 20;
+    }
+
+
+RESOURCE AVKON_SETTING_PAGE r_tictactoe_binary_setting_page
+    {   
+    number= EAknSettingPageNoOrdinalDisplayed;
+    label= qtn_aknexsettinglist_binary_title;
+    type = EAknCtPopupSettingList;
+    }
+
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_tictactoe_popup_setting_playsfirst_binary_texts
+    {
+    flags = 0;
+    setting_texts_resource = r_aknexsettinglist_on_off_texts;
+    }
+
+RESOURCE ARRAY r_aknexsettinglist_on_off_texts
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT { value=0; text = qtn_tictactoe_com; },
+		AVKON_ENUMERATED_TEXT { value=1; text = qtn_tictactoe_you; }
+        };
+    }
+
+RESOURCE AVKON_POPUP_SETTING_TEXTS r_tictactoe_popup_setting_sound_binary_texts
+    {
+    flags = 0;
+    setting_texts_resource = r_tictactoe_sound_on_off_texts;
+    }
+
+RESOURCE ARRAY r_tictactoe_sound_on_off_texts
+    {
+    items =
+        {
+        AVKON_ENUMERATED_TEXT { value=0; text = qtn_tictactoe_sound_off; },
+        AVKON_ENUMERATED_TEXT { value=1; text = qtn_tictactoe_sound_on; }
+        };
+    }
+    
+RESOURCE TBUF r_string_player_win { buf=STRING_PLAYER_WIN; }
+RESOURCE TBUF r_string_player_loss { buf=STRING_PLAYER_LOSS; }
+RESOURCE TBUF r_string_a_cats_game { buf=STRING_A_CATS_GAME; }
+
+RESOURCE TBUF r_string_stats_1 { buf=STRING_STATS_1; }
+RESOURCE TBUF r_string_stats_2 { buf=STRING_STATS_2; }

@@ -1,0 +1,54 @@
+/*
+============================================================================
+Name        : TicTacToe.mmp
+Author      : Guo Yong
+Copyright   : GPL
+Description : This is the project specification file for TicTacToe.
+============================================================================
+*/
+
+TARGET  TicTacToe.app
+TARGETTYPE  app
+UID  0x100039CE 0x200096D6 
+TARGETPATH \system\apps\TicTacToe
+
+SOURCEPATH ..\src
+SOURCE  TicTacToeApp.cpp 
+SOURCE  TicTacToeAppui.cpp
+SOURCE  TicTacToeDocument.cpp
+SOURCE  TicTacToeContainer.cpp
+SOURCE  TicTacToeView.cpp
+SOURCE  TicTacToeGameEngine.cpp
+SOURCE  TicTacToeInfoAndSettings.cpp
+SOURCE	TicTacToeSettingsList.cpp
+SOURCE	TicTacToeSettingsView.cpp
+SOURCE	TicTacToeSoundPlayer.cpp
+
+SOURCEPATH ..\data
+RESOURCE TicTacToe.rss
+RESOURCE TicTacToe_caption.rss
+LANG     01 31
+
+SOURCEPATH ..\aif
+RESOURCE TicTacToeaif.rss
+
+SOURCEPATH ..\helpfunctions
+SOURCE bitmapmethods.cpp
+
+START BITMAP tictactoe.mbm
+TARGETPATH system\apps\TicTacToe
+HEADER
+SOURCEPATH ..\data\images
+SOURCE c12 cross.bmp not.bmp
+END
+
+USERINCLUDE . 
+USERINCLUDE ..\inc
+
+SYSTEMINCLUDE   . \epoc32\include
+
+LIBRARY euser.lib apparc.lib cone.lib eikcore.lib 
+LIBRARY eikcoctl.lib avkon.lib
+LIBRARY MediaClientAudio.lib efsrv.lib estor.lib
+
+AIF TicTacToe.aif ..\aif TicTacToeaif.rss c8 context_pane_icon.bmp context_pane_icon_mask.bmp list_icon.bmp list_icon_mask.bmp

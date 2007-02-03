@@ -1,0 +1,38 @@
+/*
+============================================================================
+ Name        : TicTacToe.hrh
+ Author      : wolfg
+ Copyright   : GPL
+ Description : This file contains declarations for constants of TicTacToe.
+               The file can be included in C++ or resource file.
+============================================================================
+*/
+
+#ifndef TICTACTOE_HRH
+#define TICTACTOE_HRH
+
+// TicTacToe enumerate command codes  
+enum TTicTacToeCommandIds
+	{
+	ETicTacToeCmdAppNewGame = 1,
+	ETicTacToeCmdAppSetting,
+	ETicTacToeCmdAppStatistics,
+	ETicTacToeCmdOptions,
+	ETicTacToeCmdExit
+	};
+    
+//  view ids.
+enum TTicTacToeViewNumber
+        {
+        ETicTacToeGameViewId = 1,
+        ETicTacToeSettingsViewId
+        };
+      
+enum TTicTacToeSettingItems
+	{
+	ETicTacToePlayerNameText,
+	ETicTacToePlayerFirstBinary,
+	ETicTacToeGameSoundEnabledBinary
+	};
+
+#endif      // TICTACTOE_HRH

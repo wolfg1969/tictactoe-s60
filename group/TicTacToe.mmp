@@ -23,12 +23,11 @@ SOURCE  TicTacToeInfoAndSettings.cpp
 SOURCE	TicTacToeSettingsList.cpp
 SOURCE	TicTacToeSettingsView.cpp
 SOURCE	TicTacToeSoundPlayer.cpp
-SOURCE	bitmapmethods.cpp
 
 SOURCEPATH ..\data
 RESOURCE TicTacToe.rss
 RESOURCE TicTacToe_caption.rss
-LANG     SC
+LANG     01 31
 
 SOURCEPATH ..\aif
 RESOURCE TicTacToeaif.rss

@@ -1,0 +1,35 @@
+// TicTacToe.l01
+// English localisation
+
+#define ELanguage ELangEnglish
+
+#define qtn_app_caption_string "TicTacToe for S60"
+#define qtn_app_short_caption_string "TicTacToe"
+
+#define qtn_tictactoe_exit "Exit"
+#define qtn_tictactoe_menu "Menu"
+#define qtn_tictactoe_settings "Settings"
+
+#define qtn_tictactoe_new_game "New game"
+#define qtn_tictactoe_stats "Stats"
+
+#define qtn_tictactoe_players_name "Your name"
+#define qtn_tictactoe_who_plays_first "Who plays first?"
+#define qtn_tictactoe_sound "Sound"
+
+#define qtn_tictactoe_sound_on "On"
+#define qtn_tictactoe_sound_off "Off"
+
+#define qtn_tictactoe_com "COM"
+#define qtn_tictactoe_you "You"
+
+#define qtn_tictactoe "TicTacToe"
+
+#define STRING_PLAYER_WIN "You win!"
+#define STRING_PLAYER_LOSS "You lose!"
+#define STRING_A_CATS_GAME "A cat's game!"
+
+#define STRING_STATS_1 "\nWins: %d, Losses: %d"
+#define STRING_STATS_2 "A cat's game: %d"
+
+// End of File

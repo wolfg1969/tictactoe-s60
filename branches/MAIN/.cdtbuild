@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="TicTacToe.com.symbian.cdt.build.projectType.pdll.1982306548" name="Symbian Polymorphic DLL Project" projectType="com.symbian.cdt.build.projectType.pdll">
+<configuration artifactExtension="app" artifactName="TicTacToe" cleanCommand="del /s/q" description="" id="Series60_v21_CW_com.symbian.cdt.build.projectType.pdll_armi.urel_Series60_v21_CW.16975569" name="S60 2.1 Phone (ARMI) Release" parent="Series60_v21_CW_com.symbian.cdt.build.projectType.pdll_armi.urel_Series60_v21_CW">
+<toolChain id="com.nokia.sdk.S60_21.build.toolChain.gcc98.armiUrelPdll.812817275" name="GCC98 Polymorphic DLL Defaults" superClass="com.nokia.sdk.S60_21.build.toolChain.gcc98.armiUrelPdll">
+<option id="com.nokia.cdt.build.toolChain.S60_21.gcc98.GlobalOptions.systemIncludePaths.armiUrelPdll.1453656550" name="System Include Paths" superClass="com.nokia.cdt.build.toolChain.S60_21.gcc98.GlobalOptions.systemIncludePaths.armiUrelPdll"/>
+<option id="com.symbian.cdt.sdk.70s.build.gcc98.pdll.targetType.1310823354" name="TargetType" superClass="com.symbian.cdt.sdk.70s.build.gcc98.pdll.targetType" value="com.symbian.cdt.sdk.70s.build.gcc98.polymorphicDllUrel.app" valueType="enumerated"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll.1642196649" name="UID2" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll" value="0x100039ce" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll.1637866926" name="UID3" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll" value="0x200096D6" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll.1960738933" name="Vendor Id" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll" value="0x00000000" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths.296439227" name="User Include Paths" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\data&quot;"/>
+</option>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath.1385445802" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+<tool id="com.nokia.sdk.S60_21.build.gcc98.compiler.armiUrelPdll.1056907917" name="GCC98 Compiler" superClass="com.nokia.sdk.S60_21.build.gcc98.compiler.armiUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.linker.first.armiUrelPdll.2060932600" name="GCC98 Linker first stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.first.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.armiUrelPdll.2126161840" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.armiUrelPdll" valueType="stringList">
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\euser.lib"/>
+<listOptionValue builtIn="false" value="fbscli.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\apparc.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\cone.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\eikcore.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\avkon.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\eikcoctl.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\estor.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\efsrv.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\MediaClientAudio.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\bitgdi.lib"/>
+</option>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.linker.second.armiUrelPdll.463836423" name="GCC98 Linker second stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.second.armiUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.archiver.Default.1864147580" name="GCC98 Archiver" superClass="com.symbian.cdt.build.tool.gcc98.archiver.Default"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default.577441035" name="Def File Creator" superClass="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default">
+<option id="com.symbian.cdt.build.buildDefinitions.makeDef.gcc98.firstSymbol.1756221636" superClass="com.symbian.cdt.build.buildDefinitions.makeDef.gcc98.firstSymbol" value="NewApplication__Fv" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.petran.armiUrelPdll.119456510" name="Petran" superClass="com.symbian.cdt.build.tool.gcc98.petran.armiUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.rcomp.armiUrelPdll.1198708919" name="Resource Compiler" superClass="com.symbian.cdt.build.tool.gcc98.rcomp.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath.853251803" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.mbm.armiUrelPdll.1215298503" name="MBM Compiler" superClass="com.symbian.cdt.build.tool.gcc98.mbm.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath.1015719865" superClass="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.aif.armiUrelPdll.1858969666" name="AIF Compiler" superClass="com.symbian.cdt.build.tool.gcc98.aif.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath.846558109" superClass="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.armiUrelPdll.829023826" name="GCC98 Dlltool import library generation stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.armiUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.armiUrelPdll.2017771946" name="GCC98 Dlltool first stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.armiUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.armiUrelPdll.1079247921" name="GCC98 Dlltool second stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.armiUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.armiUrelPdll.47211177" name="GCC98 Dlltool third stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.armiUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.makesis.armiUrelPdll.1988236319" name="MakeSis (Installation File Generator)" superClass="com.symbian.cdt.build.tool.gcc98.makesis.armiUrelPdll"/>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="app" artifactName="TicTacToe" cleanCommand="del /s/q" description="" id="Series60_v21_CW_com.symbian.cdt.build.projectType.pdll_thumb.urel_Series60_v21_CW.485527470" name="S60 2.1 Phone (Thumb) Release" parent="Series60_v21_CW_com.symbian.cdt.build.projectType.pdll_thumb.urel_Series60_v21_CW">
+<toolChain id="com.nokia.sdk.S60_21.build.toolChain.gcc98.thumbUrelPdll.1951578377" name="GCC98 Polymorphic DLL Defaults" superClass="com.nokia.sdk.S60_21.build.toolChain.gcc98.thumbUrelPdll">
+<option id="com.nokia.cdt.build.toolChain.S60_21.gcc98.GlobalOptions.systemIncludePaths.thumbUrelPdll.578556864" name="System Include Paths" superClass="com.nokia.cdt.build.toolChain.S60_21.gcc98.GlobalOptions.systemIncludePaths.thumbUrelPdll"/>
+<option id="com.symbian.cdt.sdk.70s.build.gcc98.pdll.targetType.977610013" name="TargetType" superClass="com.symbian.cdt.sdk.70s.build.gcc98.pdll.targetType" value="com.symbian.cdt.sdk.70s.build.gcc98.polymorphicDllUrel.app" valueType="enumerated"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll.492489264" name="UID2" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll" value="0x100039ce" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll.940800188" name="UID3" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll" value="0x200096D6" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll.505767314" name="Vendor Id" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll" value="0x00000000" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths.1560145843" name="User Include Paths" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\data&quot;"/>
+</option>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath.1669607001" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+<tool id="com.nokia.sdk.S60_21.build.gcc98.compiler.thumbUrelPdll.427758831" name="GCC98 Compiler" superClass="com.nokia.sdk.S60_21.build.gcc98.compiler.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.linker.first.thumbUrelPdll.903126558" name="GCC98 Linker first stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.first.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.thumbUrelPdll.1600993970" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.thumbUrelPdll" valueType="stringList">
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\euser.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\apparc.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\cone.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\eikcore.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\avkon.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\eikcoctl.lib"/>
+<listOptionValue builtIn="false" value="estor.lib"/>
+<listOptionValue builtIn="false" value="efsrv.lib"/>
+<listOptionValue builtIn="false" value="fbscli.lib"/>
+<listOptionValue builtIn="false" value="bitgdi.lib"/>
+<listOptionValue builtIn="false" value="MediaClientAudio.lib"/>
+</option>
+<option id="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.undef.pdll.327622692" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.undef.pdll" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="_E32Dll"/>
+</option>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.linker.second.thumbUrelPdll.1279139463" name="GCC98 Linker second stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.second.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.archiver.Default.1187448640" name="GCC98 Archiver" superClass="com.symbian.cdt.build.tool.gcc98.archiver.Default"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default.1856276261" name="Def File Creator" superClass="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default">
+<option id="com.symbian.cdt.build.buildDefinitions.makeDef.gcc98.firstSymbol.1923581293" superClass="com.symbian.cdt.build.buildDefinitions.makeDef.gcc98.firstSymbol" value="NewApplication__Fv" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.petran.thumbUrelPdll.1040051513" name="Petran" superClass="com.symbian.cdt.build.tool.gcc98.petran.thumbUrelPdll"/>
+<tool command="epocrc.py" id="com.symbian.cdt.build.tool.gcc98.rcomp.thumbUrelPdll.1602422106" name="Resource Compiler" superClass="com.symbian.cdt.build.tool.gcc98.rcomp.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath.2012696635" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.general.definedSymbols.1546053566" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.general.definedSymbols" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="LANGUAGE_01"/>
+<listOptionValue builtIn="false" value="LANGUAGE_31"/>
+</option>
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.includePaths.verbose.334156296" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.includePaths.verbose" value="true" valueType="boolean"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.mbm.thumbUrelPdll.1840326878" name="MBM Compiler" superClass="com.symbian.cdt.build.tool.gcc98.mbm.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath.1508720511" superClass="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.aif.thumbUrelPdll.865357346" name="AIF Compiler" superClass="com.symbian.cdt.build.tool.gcc98.aif.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath.259287560" superClass="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+<option id="com.symbian.cdt.build.buildDefinitions.aif.general.verbose.768118366" superClass="com.symbian.cdt.build.buildDefinitions.aif.general.verbose" value="true" valueType="boolean"/>
+</tool>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.thumbUrelPdll.1542574981" name="GCC98 Dlltool import library generation stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.thumbUrelPdll.1033906915" name="GCC98 Dlltool first stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.thumbUrelPdll.1221803290" name="GCC98 Dlltool second stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.thumbUrelPdll.47750786" name="GCC98 Dlltool third stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.makesis.thumbUrelPdll.1260514349" name="MakeSis (Installation File Generator)" superClass="com.symbian.cdt.build.tool.gcc98.makesis.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.makesis.general.verbose.2130922516" superClass="com.symbian.cdt.build.buildDefinitions.makesis.general.verbose" value="false" valueType="boolean"/>
+<option id="com.symbian.cdt.build.buildDefinitions.makesis.general.outputName.1885976199" superClass="com.symbian.cdt.build.buildDefinitions.makesis.general.outputName" value="tictactoe.sis" valueType="string"/>
+</tool>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="app" artifactName="TicTacToe" cleanCommand="del /s/q" description="" errorParsers="com.symbian.cdt.build.WinscwErrorParser;org.eclipse.cdt.core.MakeErrorParser;;com.symbian.cdt.build.RCOMPErrorParser;;com.symbian.cdt.build.MakeDefErrorParser" id="Series60_v21_CW_com.symbian.cdt.build.projectType.pdll_winscw.udeb_Series60_v21_CW.2135070976" name="S60 2.1 Emulator Debug" parent="Series60_v21_CW_com.symbian.cdt.build.projectType.pdll_winscw.udeb_Series60_v21_CW">
+<toolChain id="com.nokia.sdk.S60_21.build.winscw.toolChain.winscwUdebPdll.1289159502" name="WINSCW UDEB Defaults" superClass="com.nokia.sdk.S60_21.build.winscw.toolChain.winscwUdebPdll">
+<option id="com.nokia.cdt.build.toolChain.S60_21.winscw.GlobalOptions.systemIncludePaths.winscwUdebPdll.1948857249" name="System Include Paths" superClass="com.nokia.cdt.build.toolChain.S60_21.winscw.GlobalOptions.systemIncludePaths.winscwUdebPdll"/>
+<option id="com.symbian.cdt.sdk.70s.build.winscw.polymorphicDllUdeb.targetType.1148382786" name="TargetType" superClass="com.symbian.cdt.sdk.70s.build.winscw.polymorphicDllUdeb.targetType" value="com.symbian.cdt.sdk.70s.build.winscw.polymorphicDllUdeb.app" valueType="enumerated"/>
+<option id="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.uid2.udeb.1130524218" name="UID2" superClass="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.uid2.udeb" value="0x100039ce" valueType="string"/>
+<option id="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.uid3.udeb.103380866" name="UID3" superClass="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.uid3.udeb" value="0x200096D6" valueType="string"/>
+<option id="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.vendorid.udeb.285801250" name="Vendor Id" superClass="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.vendorid.udeb" value="0x00000000" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.winscw.GlobalOptions.exports.1425635248" superClass="com.symbian.cdt.build.toolChain.winscw.GlobalOptions.exports" value="?NewApplication@@YAPAVCApaApplication@@XZ" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.winscw.GlobalOptions.userIncludePaths.1700270285" name="User Include Paths" superClass="com.symbian.cdt.build.toolChain.winscw.GlobalOptions.userIncludePaths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\data&quot;"/>
+</option>
+<option id="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.targetPath.udeb.8628556" superClass="com.symbian.cdt.build.70s.toolChain.winscw.GlobalOptions.targetPath.udeb" value="system\apps\TicTacToe" valueType="string"/>
+<tool id="com.nokia.sdk.S60_21.build.winscw.compiler.udebPDll.1512839008" name="WINSCW C/C++ Compiler" superClass="com.nokia.sdk.S60_21.build.winscw.compiler.udebPDll"/>
+<tool id="com.symbian.cdt.build.tool.winscw.preCompiledHeader.default.1433622165" name="WINSCW C/C++ Precompiled Header Gen" superClass="com.symbian.cdt.build.tool.winscw.preCompiledHeader.default"/>
+<tool id="com.symbian.cdt.sdk.70s.build.winscw.linker.udebPDll.674646582" name="WINSCW C/C++ Linker" superClass="com.symbian.cdt.sdk.70s.build.winscw.linker.udebPDll">
+<option id="com.symbian.cdt.build.70s.buildDefinitions.winscw.linker.libraries.libraries.udebPDll.889438778" superClass="com.symbian.cdt.build.70s.buildDefinitions.winscw.linker.libraries.libraries.udebPDll" valueType="stringList">
+<listOptionValue builtIn="false" value="euser.lib"/>
+<listOptionValue builtIn="false" value="MediaClientAudio.lib"/>
+<listOptionValue builtIn="false" value="efsrv.lib"/>
+<listOptionValue builtIn="false" value="estor.lib"/>
+<listOptionValue builtIn="false" value="apparc.lib"/>
+<listOptionValue builtIn="false" value="cone.lib"/>
+<listOptionValue builtIn="false" value="eikcore.lib"/>
+<listOptionValue builtIn="false" value="avkon.lib"/>
+<listOptionValue builtIn="false" value="eikcoctl.lib"/>
+</option>
+</tool>
+<tool id="com.symbian.cdt.build.70s.tool.winscw.aif.udeb.2022515653" name="AIF Compiler" superClass="com.symbian.cdt.build.70s.tool.winscw.aif.udeb">
+<option id="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath.623996835" superClass="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.70s.tool.winscw.rcomp.udeb.65955430" name="Resource Compiler" superClass="com.symbian.cdt.build.70s.tool.winscw.rcomp.udeb">
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath.212166789" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.buildDefinitions.makedef.winscw.default.429641395" name="Def File Creator for WINSCW" superClass="com.symbian.cdt.build.buildDefinitions.makedef.winscw.default"/>
+<tool id="com.symbian.cdt.build.70s.tool.winscw.mbm.udeb.1902064806" name="MBM Compiler" superClass="com.symbian.cdt.build.70s.tool.winscw.mbm.udeb">
+<option id="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath.1168763657" superClass="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath" value="system\apps\TicTacToe" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.sdk.70s.build.buildDefinitions.winscw.defFileManager.udebPDll.34370009" name="Def file Manager" superClass="com.symbian.cdt.sdk.70s.build.buildDefinitions.winscw.defFileManager.udebPDll"/>
+<macros/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

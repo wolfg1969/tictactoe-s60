@@ -1,0 +1,1 @@
+I write this game with the purpose of learning Symbian C++ programming. It is developed with S60 2nd Edition, FP 1, CW and Carbide.c++ Express and tested on Nokia 6600.
